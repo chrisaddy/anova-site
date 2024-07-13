@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "anova-site"
+version = "0.1.0"
+description = ""
+authors = ["chrisaddy <chris.william.addy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
